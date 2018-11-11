@@ -86,6 +86,7 @@ if(isset($data)){
 										<li class="list-inline-item"><a href="https://www.youtube.com/channel/UCHVIGHM-gDwLnzuM1YQrHeA" target="_blank"><i class="fab fa-youtube"></i></a></li>
                     <li class="list-inline-item"><a href="https://twitter.com/NathanFallet" target="_blank"><i class="fab fa-twitter"></i></a></li>
 										<li class="list-inline-item"><a href="https://www.instagram.com/nathanfallet/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+										<li class="list-inline-item"><a href="https://github.com/NathanFallet" target="_blank"><i class="fab fa-github"></i></a></li>
                 </ul>
             </div><!--//profile-->
 						<a class="btn btn-cta-primary float-right" href="mailto:contact@nathanfallet.me"><i class="fas fa-paper-plane"></i> Contact Me</a>
