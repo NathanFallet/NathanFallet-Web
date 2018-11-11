@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^home/?$ index.php?page=home
+RewriteRule ^project/([a-z_]+)/?$ index.php?page=project&id=$1
+RewriteRule ^project/([a-z_]+)/download/?$ download.php?id=$1
+RewriteRule ^checkforupdate_bukkit_plugins.php$ checkforupdate.php
+RewriteRule ^sitemap.xml$ sitemap.php
+
+RewriteRule ^tpg$ http://www.thephonegear.com/?rfsn=1751260.c4ddff
+
+ErrorDocument 404 /index.php?page=404
