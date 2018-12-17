@@ -2,36 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>AppMonday</title>
+    <title>AppMonday by Nathan Fallet & Code Community</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="apple-touch-icon" href="images/AppMondayRadius.png">
   </head>
   <body>
-    <div class="macos-window">
-      <div class="macos-titlebar">
-        <div class="macos-buttons">
-          <div class="macos-close">
-            <a class="macos-closebutton" href="#"><span><strong>x</strong></span></a>
-          </div>
-          <div class="macos-minimize">
-            <a class="macos-minimizebutton" href="#"><span><strong>&ndash;</strong></span></a>
-          </div>
-          <div class="macos-zoom">
-            <a class="macos-zoombutton" href="#"><span><strong>+</strong></span></a>
-          </div>
-        </div>
-        AppMonday by Nathan Fallet
-      </div>
-      <div class="macos-content">
+    <div class="content-box">
+      <div class="content">
         <div class="row">
           <div class="col-md-6">
             <h2>What is AppMonday?</h2>
             <p>Every Monday, we will share one app you submited here in our Instagram story. Fill this form and share with us your project! It can be a website, a mobile app, an open source project, ... everything you coded.</p>
+            <p class="ig-links"><a href="https://www.instagram.com/nathanfallet/" target="_blank"><i class="fab fa-instagram"></i> nathanfallet</a><br/>
+            <a href="https://www.instagram.com/code.community/" target="_blank"><i class="fab fa-instagram"></i> code.community</a></p>
           </div>
           <div class="col-md-6">
-            <h2>Submit your app</h2>
+            <h2>Submit your app!</h2>
             <form id="form">
               <div class="form-group">
                 <label for="name">App name:</label>

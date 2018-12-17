@@ -31,7 +31,12 @@ document.getElementById('form').onsubmit = function(){
       link: link
     }
     ajaxPost('https://apps.nathanfallet.me/appmonday/index.php', data, function response(response) {
-      alert('Your app have been submited! Follow us on Instragram to see it in our story.');
+      var data = JSON.parse(response);
+      if(data.success){
+        alert('Your app have been submited! Follow us on Instragram to see it in our story.');
+      }else{
+        alert('We are sorry but something went wrong...');
+      }
     });
   }else{
     alert('Please fill all inputs with correct values!');
