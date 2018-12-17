@@ -3,11 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>AppMonday</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="apple-touch-icon" href="images/AppMondayRadius.png">
   </head>
   <body>
     <div class="macos-window">
@@ -33,7 +32,7 @@
           </div>
           <div class="col-md-6">
             <h2>Submit your app</h2>
-            <form onsubmit="submitForm()">
+            <form id="form">
               <div class="form-group">
                 <label for="name">App name:</label>
                 <input type="text" class="form-control" id="name" placeholder="My app">
@@ -52,5 +51,8 @@
         </div>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
