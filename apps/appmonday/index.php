@@ -12,11 +12,18 @@ if($data['method'] == 'Web:submitApp()'){
 	$data['user'] = trim($data['user']);
 	$data['link'] = trim($data['link']);
 	if(!empty($data['name']) && !empty($data['user']) && !empty($data['link'])){
-		$sql = $bdd->prepare("INSERT INTO appmonday (name, submit, user, link) VALUES(?, NOW(), ?, ?)");
-		if($sql->execute(array($data['name'], $data['user'], $data['link']))){
-			echo json_encode(array('success' => 'success'));
+		$sql = $bdd->prepare("SELECT * FROM appmonday WHERE name = ? OR link = ?");
+		$sql->execute(array($data['name'], $data['link']));
+		$dn = $sql->fetch();
+		if(!$dn){
+			$sql2 = $bdd->prepare("INSERT INTO appmonday (name, submit, user, link) VALUES(?, NOW(), ?, ?)");
+			if($sql2->execute(array($data['name'], $data['user'], $data['link']))){
+				echo json_encode(array('success' => 'success'));
+			}else{
+				echo json_encode(array('error' => 'error_unknown'));
+			}
 		}else{
-			echo json_encode(array('error' => 'error_unknown'));
+			echo json_encode(array('error' => 'error_name_or_link_already_taken'));
 		}
 	}else{
     echo json_encode(array('error' => 'error_all_fields_required'));

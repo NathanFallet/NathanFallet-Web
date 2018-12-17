@@ -7,16 +7,38 @@ html, body {
   padding: 40px;
 }
 
-.content {
-  background-color: #FFF;
-  margin: auto;
+.animatedbox {
   max-width: 800px;
   padding: 20px;
-  margin-top: 50px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
   font-family: 'Trebuchet MS';
   animation-name: enter;
   animation-duration: 1s;
+}
+
+.status {
+  position: absolute;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: white;
+  margin-top: 15px;
+}
+
+.success {
+  background-color: #16B84E;
+}
+
+.error {
+  background-color: #E9383F;
+}
+
+.content {
+  background-color: #FFF;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .content h2 {

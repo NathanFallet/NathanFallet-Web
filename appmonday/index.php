@@ -10,8 +10,8 @@
     <link rel="apple-touch-icon" href="images/AppMondayRadius.png">
   </head>
   <body>
-    <div class="content-box">
-      <div class="content">
+    <div class="content-box" id="content">
+      <div class="content animatedbox">
         <div class="row">
           <div class="col-md-6">
             <h2>What is AppMonday?</h2>
