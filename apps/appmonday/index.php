@@ -32,7 +32,7 @@ if($data['method'] == 'Web:submitApp()'){
 }else if($data['method'] == 'Web:getApps()'){
 	$start = ($data['start'] != 0 ? $data['start'] : 0);
 	$limit = ($data['limit'] != 0 ? $data['limit'] : 10);
-	$sql = $bdd->query("SELECT * FROM appmonday WHERE publish IS NOT NULL ORDER BY publish DESC LIMIT $start, $limit");
+	$sql = $bdd->query("SELECT * FROM appmonday WHERE publish IS NOT NULL AND publish <= NOW() ORDER BY publish DESC LIMIT $start, $limit");
 	$response = $sql->fetchAll();
 	$response['success'] = true;
 	echo json_encode($response);
