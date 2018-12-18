@@ -66,7 +66,7 @@ function success() {
   success.classList.add('success');
   success.classList.add('status');
   success.classList.add('animatedbox');
-  success.innerHTML = 'Your app have been submitted! Follow us on Instragram to see it in our story.';
+  success.innerHTML = 'Your app has been submitted! Follow us on Instragram to see it in our story.';
   contentbox.prepend(success);
 }
 
