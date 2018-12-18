@@ -14,6 +14,12 @@
       <div class="content animatedbox">
         <div class="row">
           <div class="col-md-6">
+            <h2>What is AppMonday?</h2>
+            <p>Every Monday, we will share one app you submited here in our Instagram story. Fill this form and share with us your project! It can be a website, a mobile app, an open source project, ... everything you coded.</p>
+            <p class="ig-links"><a href="https://www.instagram.com/nathanfallet/" target="_blank"><i class="fab fa-instagram"></i> nathanfallet</a><br/>
+            <a href="https://www.instagram.com/code.community/" target="_blank"><i class="fab fa-instagram"></i> code.community</a></p>
+          </div>
+          <div class="col-md-6">
             <h2>Submit your app!</h2>
             <form id="form">
               <div class="form-group">
@@ -34,12 +40,6 @@
               </div>
               <input type="submit" class="btn btn-default" value="Submit">
             </form>
-          </div>
-          <div class="col-md-6">
-            <h2>What is AppMonday?</h2>
-            <p>Every Monday, we will share one app you submited here in our Instagram story. Fill this form and share with us your project! It can be a website, a mobile app, an open source project, ... everything you coded.</p>
-            <p class="ig-links"><a href="https://www.instagram.com/nathanfallet/" target="_blank"><i class="fab fa-instagram"></i> nathanfallet</a><br/>
-            <a href="https://www.instagram.com/code.community/" target="_blank"><i class="fab fa-instagram"></i> code.community</a></p>
           </div>
         </div>
       </div>
