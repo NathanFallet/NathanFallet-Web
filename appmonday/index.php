@@ -12,19 +12,19 @@
   <body>
     <div class="content-box" id="content">
       <div class="row">
-        <div class="col-xs-2 menu animatedbox">
+        <div class="col-xs-3 menu animatedbox">
           <ul>
             <li id="menu-first" class="active"><a onclick="show('first')">App list</a></li>
             <li id="menu-second"><a onclick="show('second')">Submit an app</a></li>
             <li id="menu-third"><a onclick="show('third')">Infos</a></li>
           </ul>
         </div>
-        <div class="col-xs-10 content animatedbox" id="box-first">
+        <div class="col-xs-9 content animatedbox" id="box-first">
           <h2>Last introduced apps</h2>
           <p>Here we list all the apps we introduced on Instagram. For more informations, <a onclick="show('third')">click here</a>.</p>
           <div id="applist"></div>
         </div>
-        <div class="col-xs-10 content animatedbox" style="display: none;" id="box-second">
+        <div class="col-xs-9 content animatedbox" style="display: none;" id="box-second">
           <h2>Submit your app!</h2>
           <form id="form">
             <div class="form-group">
@@ -43,10 +43,14 @@
               <label for="link">App link:</label>
               <input type="text" class="form-control" id="link" placeholder="https://">
             </div>
+            <div class="form-group">
+              <label for="logo">App logo: (optional - square)</label>
+              <input type="text" class="form-control" id="logo" placeholder="https://">
+            </div>
             <input type="submit" class="btn btn-default" value="Submit">
           </form>
         </div>
-        <div class="col-xs-10 content animatedbox" style="display: none;" id="box-third">
+        <div class="col-xs-9 content animatedbox" style="display: none;" id="box-third">
           <h2>What is AppMonday?</h2>
           <p>Every Monday, we will share one app you submitted here in our Instagram story. Fill this form and share with us your project! It can be a website, a mobile app, an open source project, ... everything you coded.</p>
           <p class="ig-links"><a href="https://www.instagram.com/nathanfallet/" target="_blank"><i class="fab fa-instagram"></i> nathanfallet</a><br/>

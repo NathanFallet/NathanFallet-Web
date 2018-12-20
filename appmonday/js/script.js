@@ -30,6 +30,7 @@ document.getElementById('form').onsubmit = function(){
   var name = document.getElementById('name').value.trim();
   var user = document.getElementById('user').value.trim();
   var link = document.getElementById('link').value.trim();
+  var logo = document.getElementById('logo').value.trim();
   var description = document.getElementById('description').value.trim();
   if(name !== '' && user !== '' && link !== '' && description !== '' && /[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/gi.test(link)) {
     var data = {
@@ -37,6 +38,7 @@ document.getElementById('form').onsubmit = function(){
       name: name,
       user: user,
       link: link,
+      logo: logo,
       description: description
     }
     ajaxPost('https://apps.nathanfallet.me/appmonday/index.php', data, function response(response) {

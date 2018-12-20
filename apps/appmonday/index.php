@@ -11,14 +11,15 @@ if($data['method'] == 'Web:submitApp()'){
 	$name = trim($data['name']);
 	$user = trim($data['user']);
 	$link = trim($data['link']);
+	$logo = trim($data['logo']);
 	$description = trim($data['description']);
 	if(!empty($name) && !empty($user) && !empty($link) && !empty($description)){
 		$sql = $bdd->prepare("SELECT * FROM appmonday WHERE name = ? OR link = ?");
 		$sql->execute(array($name, $link));
 		$dn = $sql->fetch();
 		if(!$dn){
-			$sql2 = $bdd->prepare("INSERT INTO appmonday (name, submit, user, link, description) VALUES(?, NOW(), ?, ?, ?)");
-			if($sql2->execute(array($name, $user, $link, $description))){
+			$sql2 = $bdd->prepare("INSERT INTO appmonday (name, submit, user, link, logo, description) VALUES(?, NOW(), ?, ?, ?, ?)");
+			if($sql2->execute(array($name, $user, $link, $logo, $description))){
 				echo json_encode(array('success' => 'success'));
 			}else{
 				echo json_encode(array('error' => 'error_unknown'));
