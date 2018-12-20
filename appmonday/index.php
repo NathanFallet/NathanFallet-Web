@@ -14,6 +14,7 @@
       <div class="row">
         <div class="col-xs-3 menu animatedbox">
           <ul>
+            <li><b>AppMonday</b></li>
             <li id="menu-first" class="active"><a onclick="show('first')">App list</a></li>
             <li id="menu-second"><a onclick="show('second')">Submit an app</a></li>
             <li id="menu-third"><a onclick="show('third')">Infos</a></li>

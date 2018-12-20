@@ -58,7 +58,7 @@ html, body {
   display: block;
 }
 
-.menu a {
+.menu a, .menu b {
   display: block;
   color: white;
   background-color: #2C75FF;
@@ -70,6 +70,7 @@ html, body {
   background-color: white;
   text-decoration: none;
   color: #2C75FF;
+  cursor: pointer;
 }
 
 .content h2 {
