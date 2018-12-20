@@ -1,3 +1,9 @@
+// AppMonday JavaScript File
+
+// Main variables
+var loaded_apps = 0;
+
+// Ajax Query
 function ajaxPost(url, data, callback, progress) {
     var req = new XMLHttpRequest();
     req.open("POST", url);
@@ -19,6 +25,7 @@ function ajaxPost(url, data, callback, progress) {
     req.send(data);
 }
 
+// Form validation
 document.getElementById('form').onsubmit = function(){
   var name = document.getElementById('name').value.trim();
   var user = document.getElementById('user').value.trim();
@@ -52,6 +59,58 @@ document.getElementById('form').onsubmit = function(){
   return false;
 }
 
+// App list
+function loadApps() {
+  var applist = document.getElementById('applist');
+  var data = {
+    method: "Web:getApps()",
+    start: window.loaded_apps,
+    limit: 10
+  }
+  ajaxPost('https://apps.nathanfallet.me/appmonday/index.php', data, function response(response) {
+    var data = JSON.parse(response);
+    if(data.success){
+      delete data['success'];
+      for(var app in data) {
+        applist.appendChild(createAppElement(data[app]));
+        window.loaded_apps++;
+      }
+      if(window.loaded_apps == 0) {
+        applist.innerHTML = '<p>No apps have been introduced for now, but you can already <a onclick="show(\'second\')">submit your app here</a>!</p><p>Come back on Monday, Dec 24 to see the first app.</p>';
+      }
+    }
+  });
+}
+
+loadApps();
+
+// Utils
+function  createAppElement(app) {
+  var media = document.createElement('div');
+  media.classList.add('media');
+  var medialeft = document.createElement('div');
+  medialeft.classList.add('media-left');
+  var mediabody = document.createElement('div');
+  mediabody.classList.add('media-body');
+  var mediaheading = document.createElement('h4');
+  mediaheading.classList.add('media-heading');
+  mediaheading.innerHTML = '<a href="'+app.link+'">'+app.name+'</a>';
+  var mediap = document.createElement('p');
+  mediap.classList.add('media-p');
+  mediap.innerHTML = 'Submitted by <a href="https://instagram.com/'+app.user+'">'+app.user+'</a>';
+  var mediaimg = document.createElement('img');
+  mediaimg.classList.add('media-object');
+  mediaimg.src = app.logo !== '' ? app.logo : 'https://appmonday.nathanfallet.me/images/AppMondayRadius.png';
+  mediaimg.style.width = '50px';
+  mediaimg.style.height = '50px';
+  medialeft.appendChild(mediaimg);
+  mediabody.appendChild(mediaheading);
+  mediabody.appendChild(mediap);
+  media.appendChild(medialeft);
+  media.appendChild(mediabody);
+  return media;
+}
+
 function clear() {
   var status = document.getElementsByClassName('status');
   while(status[0]) {
@@ -79,4 +138,15 @@ function error(message) {
   error.classList.add('animatedbox');
   error.innerHTML = 'An error occurred: '+message;
   contentbox.prepend(error);
+}
+
+function show(id) {
+  document.getElementById('box-first').style = 'display: none;';
+  document.getElementById('box-second').style = 'display: none;';
+  document.getElementById('box-third').style = 'display: none;';
+  document.getElementById('box-'+id).style = '';
+  document.getElementById('menu-first').classList.remove('active');
+  document.getElementById('menu-second').classList.remove('active');
+  document.getElementById('menu-third').classList.remove('active');
+  document.getElementById('menu-'+id).classList.add('active');
 }
