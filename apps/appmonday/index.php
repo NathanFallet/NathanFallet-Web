@@ -5,7 +5,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 require_once '../../../config/config.php';
 
 $data = json_decode(file_get_contents('php://input'), true);
-$bdd = new PDO('mysql:host='.getDBHost().';dbname=nathanfallet', getDBUsername(), getDBPassword(), array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+$bdd = new PDO('mysql:host='.getDBHost().';dbname=appmonday', getDBUsername(), getDBPassword(), array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 
 if($data['method'] == 'Web:submitApp()'){
 	$name = trim($data['name']);
@@ -14,11 +14,11 @@ if($data['method'] == 'Web:submitApp()'){
 	$logo = trim($data['logo']);
 	$description = trim($data['description']);
 	if(!empty($name) && !empty($user) && !empty($link) && !empty($description)){
-		$sql = $bdd->prepare("SELECT * FROM appmonday WHERE name = ? OR link = ?");
+		$sql = $bdd->prepare("SELECT * FROM apps WHERE name = ? OR link = ?");
 		$sql->execute(array($name, $link));
 		$dn = $sql->fetch();
 		if(!$dn){
-			$sql2 = $bdd->prepare("INSERT INTO appmonday (name, submit, user, link, logo, description) VALUES(?, NOW(), ?, ?, ?, ?)");
+			$sql2 = $bdd->prepare("INSERT INTO apps (name, submit, user, link, logo, description) VALUES(?, NOW(), ?, ?, ?, ?)");
 			if($sql2->execute(array($name, $user, $link, $logo, $description))){
 				echo json_encode(array('success' => 'success'));
 			}else{
@@ -33,7 +33,7 @@ if($data['method'] == 'Web:submitApp()'){
 }else if($data['method'] == 'Web:getApps()'){
 	$start = ($data['start'] != 0 ? $data['start'] : 0);
 	$limit = ($data['limit'] != 0 ? $data['limit'] : 10);
-	$sql = $bdd->query("SELECT * FROM appmonday WHERE publish IS NOT NULL AND publish <= NOW() ORDER BY publish DESC LIMIT $start, $limit");
+	$sql = $bdd->query("SELECT * FROM apps WHERE publish IS NOT NULL AND publish <= NOW() ORDER BY publish DESC LIMIT $start, $limit");
 	$response = $sql->fetchAll();
 	$response['success'] = true;
 	echo json_encode($response);
