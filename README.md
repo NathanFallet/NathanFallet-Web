@@ -1,0 +1,29 @@
+# NathanFallet-Web
+
+## Repository content
+
+Here is my website, divided in three folders:
+- www/ => The website with HTML/CSS/JS
+- apps/ => Some APIs with PHP/MySQL
+- old/ => Redirections of URLs of my previous domain to the new one
+
+[Check out the website online!](https://www.nathanfallet.me/)
+
+## MySQL database
+
+```sql
+CREATE TABLE `projects` (
+  `id` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `description_little` varchar(255) NOT NULL,
+  `description` text NOT NULL,
+  `last_update` datetime NOT NULL,
+  `type` varchar(255) NOT NULL DEFAULT '',
+  `data` varchar(255) NOT NULL,
+  `img` varchar(255) NOT NULL,
+  `version` varchar(255) NOT NULL,
+  `github` varchar(255) NOT NULL DEFAULT '',
+  `downloads` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+);
+```
