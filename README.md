@@ -2,10 +2,9 @@
 
 ## Repository content
 
-Here is my website, divided in three folders:
+Here is my website, divided in two folders:
 - www/ => The website with HTML/CSS/JS
 - apps/ => Some APIs with PHP/MySQL
-- old/ => Redirections of URLs of my previous domain to the new one
 
 [Check out the website online!](https://www.nathanfallet.me/)
 
