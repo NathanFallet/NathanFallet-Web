@@ -8,6 +8,8 @@ Here is my website, divided in two folders:
 
 [Check out the website online!](https://www.nathanfallet.me/)
 
+Want to support my projects? [Donate!](https://paypal.me/NathanFallet)
+
 ## MySQL database
 
 ```sql

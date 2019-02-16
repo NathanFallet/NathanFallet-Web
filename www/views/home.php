@@ -68,7 +68,8 @@ function cmp($a, $b) {
                  <ul class="list-unstyled">
                    <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>France</li>
                    <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:contact@nathanfallet.me">contact@nathanfallet.me</a></li>
-                     <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="<?php echo $url; ?>"><?php echo $url; ?></a></li>
+                   <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="<?php echo $url; ?>"><?php echo $url; ?></a></li>
+                   <li><i class="fas fa-donate"></i><span class="sr-only">Donate:</span><a href="https://paypal.me/NathanFallet">PayPal.Me</a></li>
                  </ul>
              </div><!--//content-->
          </div><!--//section-inner-->
