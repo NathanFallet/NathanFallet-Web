@@ -9,15 +9,17 @@ function cmp($a, $b) {
 <div class="container sections-wrapper">
 	<div class="row">
 		<div class="primary col-lg-8 col-12">
-      <!-- <section class="about section">
+      <section class="about section">
           <div class="section-inner">
               <h2 class="heading">About Me</h2>
               <div class="content">
-                  <p>To do</p>
+                  <p>I'm Nathan, and I code since I was 10.</p>
+                  <p>I started with some HTML projects (we all have to start with something), and then I worked a lot with PHP until I discovered Java and started making Minecraft Plugins for servers with friends.</p>
+                  <p>When I was 14, I joined friends to make projects with them. Now, we are working as <a href="https://www.groupe-minaste.org/">Groupe MINASTE</a> on the web, creating website and apps for Android and iOS.</p>
+                  <p>Check my amazing project list below!</p>
               </div>
           </div>
-      </section> -->
-
+      </section>
 			<section class="latest section">
 				<div class="section-inner">
           <h2 class="heading">My projects</h2>
@@ -90,21 +92,21 @@ function cmp($a, $b) {
                      <div class="item">
                          <h3 class="level-title">PHP &amp; MySQL<span class="level-label">Pro</span></h3>
                          <div class="level-bar">
-                             <div class="level-bar-inner" data-level="80%">
+                             <div class="level-bar-inner" data-level="95%">
                              </div>
                          </div>
                      </div>
                      <div class="item">
-                         <h3 class="level-title">Java<span class="level-label">Expert</span></h3>
+                         <h3 class="level-title">Java<span class="level-label">Pro</span></h3>
                          <div class="level-bar">
-                             <div class="level-bar-inner" data-level="100%">
+                             <div class="level-bar-inner" data-level="95%">
                              </div>
                          </div>
                      </div>
                      <div class="item">
-                         <h3 class="level-title">Swift<span class="level-label">Starter</span></h3>
+                         <h3 class="level-title">Swift<span class="level-label">Medium</span></h3>
                          <div class="level-bar">
-                             <div class="level-bar-inner" data-level="30%">
+                             <div class="level-bar-inner" data-level="60%">
                              </div>
                          </div>
                      </div>
@@ -127,15 +129,15 @@ function cmp($a, $b) {
                  <ul class="list-unstyled">
                      <li class="item">
                          <span class="title"><strong>French:</strong></span>
-                         <span class="level">Native Speaker <br/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                         <span class="level">Native <br/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
                      </li><!--//item-->
                      <li class="item">
                          <span class="title"><strong>English:</strong></span>
-                         <span class="level">Professional Proficiency <br/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                         <span class="level">Professional <br/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
                      </li><!--//item-->
                      <li class="item">
                          <span class="title"><strong>Spanish:</strong></span>
-                         <span class="level">Professional Proficiency <br/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+                         <span class="level">Professional <br/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
                      </li><!--//item-->
                  </ul>
              </div><!--//content-->
