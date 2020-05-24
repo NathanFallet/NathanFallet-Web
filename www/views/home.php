@@ -104,9 +104,9 @@ function cmp($a, $b) {
                          </div>
                      </div>
                      <div class="item">
-                         <h3 class="level-title">Swift<span class="level-label">Medium</span></h3>
+                         <h3 class="level-title">Swift<span class="level-label">Pro</span></h3>
                          <div class="level-bar">
-                             <div class="level-bar-inner" data-level="60%">
+                             <div class="level-bar-inner" data-level="95%">
                              </div>
                          </div>
                      </div>
