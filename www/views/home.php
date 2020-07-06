@@ -111,6 +111,13 @@ function cmp($a, $b) {
                          </div>
                      </div>
                      <div class="item">
+                         <h3 class="level-title">JS<span class="level-label">Medium</span></h3>
+                         <div class="level-bar">
+                             <div class="level-bar-inner" data-level="50%">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="item">
                          <h3 class="level-title">Python<span class="level-label">Starter</span></h3>
                          <div class="level-bar">
                              <div class="level-bar-inner" data-level="20%">
