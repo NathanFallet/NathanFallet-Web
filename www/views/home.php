@@ -13,7 +13,7 @@ function cmp($a, $b) {
           <div class="section-inner">
               <h2 class="heading">About Me</h2>
               <div class="content">
-                  <p>I'm Nathan, and I code since I was 10.</p>
+                  <p>I'm Nathan, and I've been coding since I was 10.</p>
                   <p>I started with some HTML projects (we all have to start with something), and then I worked a lot with PHP until I discovered Java and started making Minecraft Plugins for servers with friends.</p>
                   <p>When I was 14, I joined friends to make projects with them. Now, we are working as <a href="https://www.groupe-minaste.org/">Groupe MINASTE</a> on the web, creating website and apps for Android and iOS.</p>
                   <p>Check my amazing project list below!</p>
