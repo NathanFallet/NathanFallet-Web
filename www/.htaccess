@@ -1,10 +1,17 @@
+# Rewrites
 RewriteEngine On
 RewriteRule ^home/?$ index.php?page=home
 RewriteRule ^project/([a-z_]+)/?$ index.php?page=project&id=$1
-RewriteRule ^project/([a-z_]+)/download/?$ download.php?id=$1
-RewriteRule ^checkforupdate_bukkit_plugins.php$ checkforupdate.php
+RewriteRule ^project/([a-z_]+)/download/?$ index.php?page=download&id=$1
+RewriteRule ^checkforupdate/([a-z_]+)/([0-9.]+)/?$ index.php?page=checkforupdate&id=$1&version=$2
 RewriteRule ^sitemap.xml$ sitemap.php
 
+# Old URLs redirect
+RewriteRule ^checkforupdate_bukkit_plugins.php$ index.php?page=checkforupdate [QSA,L]
+RewriteRule ^checkforupdate.php$ index.php?page=checkforupdate [QSA,L]
+
+# Promo URLs
 RewriteRule ^tpg$ http://www.thephonegear.com/?rfsn=1751260.c4ddff
 
+# Error document
 ErrorDocument 404 /index.php?page=404
