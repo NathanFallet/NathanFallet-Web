@@ -50,11 +50,7 @@
 
   <?php
   if (isset($data)) {
-    foreach ($data as $item) {
-      echo '<script type="application/ld+json">
-		' . $item . '
-		</script>';
-    }
+    echo '<script type="application/ld+json">[' . join(', ', $data) . ']</script>';
   }
   ?>
 </head>
