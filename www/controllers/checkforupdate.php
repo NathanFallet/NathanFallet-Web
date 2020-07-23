@@ -16,7 +16,7 @@ foreach ($projects as $dn) {
 }
 
 // Get project
-if (!$project) {
+if (!isset($project)) {
 	echo '&c[Updater] Unknown project ' . $_GET['id'] . '!';
 	exit;
 } else {

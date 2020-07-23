@@ -12,7 +12,7 @@ foreach ($projects as $dn) {
         $project = $dn;
     }
 }
-if (!$project) {
+if (!isset($project)) {
 	header('location: https://www.nathanfallet.me/');
 	exit;
 }
