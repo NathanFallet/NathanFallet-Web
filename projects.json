@@ -1,14 +1,14 @@
 [
     {
         "id": "baseconverter",
-        "name": "BaseConverter DEC\/BIN\/HEX",
-        "description_little": "Convert easily your numbers between decimal, binary or hexadecimal. Just fill the input and click on convert and that's all!",
+        "name": "BaseConverter: All in one",
+        "description_little": "The fast and easy way to convert numbers with tons of possibilities!",
         "description": "",
         "last_update": "2018-12-20 23:05:52",
         "type": "app",
-        "data": ";https:\/\/itunes.apple.com\/us\/app\/baseconverter-dec-bin-hex\/id1446344899?ls=1&mt=8",
+        "data": ";https:\/\/apps.apple.com\/app\/baseconverter-all-in-one\/id1446344899",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-baseconverter.jpg",
-        "version": "1.0",
+        "version": "2.0.1",
         "github": "https:\/\/github.com\/GroupeMINASTE\/BaseConverter-iOS"
     },
     {
@@ -18,7 +18,7 @@
         "description": "<h3>Une application simple<\/h3>\n<p>Nous avons simplifi\u00e9 au maximum l'interface pour faciliter son utilisation et son efficacit\u00e9.<\/p>\n<h3>G\u00e9rez votre stock<\/h3>\n<p>Ajoutez vos produits, changez la quantit\u00e9, calculez vos gains, ... Tout ce qu'il faut pour g\u00e9rer une vente comme une brocante !<\/p>",
         "last_update": "2018-06-14 07:35:32",
         "type": "app",
-        "data": ";https:\/\/itunes.apple.com\/fr\/app\/brocstock\/id1397163629?mt=8",
+        "data": ";https:\/\/apps.apple.com\/app\/brocstock\/id1397163629?mt=8",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-brocstock.jpg",
         "version": "1.1",
         "github": "https:\/\/github.com\/GroupeMINASTE\/BrocStock-iOS"
@@ -44,8 +44,8 @@
         "type": "redirect",
         "data": "https:\/\/www.delta-math-helper.com\/",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-delta.jpg",
-        "version": "3.6.1",
-        "github": ""
+        "version": "3.6.2",
+        "github": "https:\/\/github.com\/GroupeMINASTE\/Delta-iOS"
     },
     {
         "id": "extopy",
@@ -102,7 +102,7 @@
         "description": "<h3>Un jeu simple<\/h3>\n<p>PickFalling est un jeu simple : son but consiste \u00e0 attraper les objets qui tombent avec le personnage.<\/p>\n<h3>Diff\u00e9rents niveaux<\/h3>\n<p>Autour de son but simple, jouez avec diff\u00e9rents personnages, comme une licorne, un poisson, un chat, ...<\/p>",
         "last_update": "2018-03-01 00:00:00",
         "type": "app",
-        "data": "https:\/\/play.google.com\/store\/apps\/details?id=fr.zabricraft.pickfalling;https:\/\/itunes.apple.com\/fr\/app\/pickfalling\/id1378426985?mt=8",
+        "data": "https:\/\/play.google.com\/store\/apps\/details?id=fr.zabricraft.pickfalling;https:\/\/apps.apple.com\/app\/pickfalling\/id1378426985?mt=8",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-pickfalling.jpg",
         "version": "1.8",
         "github": "https:\/\/github.com\/GroupeMINASTE\/PickFalling-iOS"
@@ -150,7 +150,7 @@
         "description": "<p>Discover all the features provided by Tic TAI Toe:<\/p>\n<ul>\n<li>Play to Tic Tac Toe with you friends<\/li>\n<li>Play to Tic Tac Toe with an AI<\/li>\n<li>See how the AI plays against itself<\/li>\n<li>Enable the dark mode (PRO feature) for fun!<\/li>\n<\/ul>\n<p>This game was developed by Nathan FALLET and published as Groupe MINASTE<\/p>",
         "last_update": "2019-04-11 15:20:06",
         "type": "app",
-        "data": "https:\/\/play.google.com\/store\/apps\/details?id=me.nathanfallet.morpiontpe;https:\/\/itunes.apple.com\/app\/tic-tai-toe\/id1459186328",
+        "data": "https:\/\/play.google.com\/store\/apps\/details?id=me.nathanfallet.morpiontpe;https:\/\/apps.apple.com\/app\/tic-tai-toe\/id1459186328",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-tictaitoe.jpg",
         "version": "1.5",
         "github": "https:\/\/github.com\/GroupeMINASTE\/MorpionTPE-iOS"
