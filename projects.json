@@ -1,10 +1,22 @@
 [
     {
+        "id": "apirequest",
+        "name": "APIRequest",
+        "description_little": "A swift package to manage a REST API",
+        "description": "",
+        "last_update": "2020-07-22 12:00:00",
+        "type": "redirect",
+        "data": "https:\/\/github.com\/GroupeMINASTE\/APIRequest.swift",
+        "img": "https:\/\/www.nathanfallet.me\/img\/project-apirequest.png",
+        "version": "1.3.1",
+        "github": "https:\/\/github.com\/GroupeMINASTE\/APIRequest.swift"
+    },
+    {
         "id": "baseconverter",
         "name": "BaseConverter: All in one",
         "description_little": "The fast and easy way to convert numbers with tons of possibilities!",
         "description": "",
-        "last_update": "2018-12-20 23:05:52",
+        "last_update": "2020-12-24 20:49:00",
         "type": "app",
         "data": ";https:\/\/apps.apple.com\/app\/baseconverter-all-in-one\/id1446344899",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-baseconverter.jpg",
@@ -32,7 +44,7 @@
         "type": "redirect",
         "data": "https:\/\/www.craftsearch.fr\/",
         "img": "https:\/\/www.craftsearch.net\/img\/logo.png",
-        "version": "5.0_BETA2",
+        "version": "5.0",
         "github": "https:\/\/github.com\/GroupeMINASTE\/CraftSearch"
     },
     {
@@ -80,7 +92,7 @@
         "type": "redirect",
         "data": "http:\/\/raccourcis.ios.free.fr\/fmobile\/",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-fmobile.jpg",
-        "version": "4.0",
+        "version": "5.0",
         "github": "https:\/\/github.com\/GroupeMINASTE\/FMobileS1"
     },
     {
@@ -144,6 +156,18 @@
         "github": "https:\/\/github.com\/NathanFallet\/Replica"
     },
     {
+        "id": "swiftmc",
+        "name": "SwiftMC",
+        "description_little": "Rewriting a Minecraft Server in Swift",
+        "description": "",
+        "last_update": "2020-11-20 12:00:00",
+        "type": "redirect",
+        "data": "https:\/\/github.com\/GroupeMINASTE\/SwiftMC",
+        "img": "https:\/\/www.nathanfallet.me\/img\/project-swiftmc.png",
+        "version": "1.0",
+        "github": "https:\/\/github.com\/GroupeMINASTE\/SwiftMC"
+    },
+    {
         "id": "tictaitoe",
         "name": "Tic TAI Toe",
         "description_little": "A tic tac toe with AI and PRO",
@@ -152,7 +176,7 @@
         "type": "app",
         "data": "https:\/\/play.google.com\/store\/apps\/details?id=me.nathanfallet.morpiontpe;https:\/\/apps.apple.com\/app\/tic-tai-toe\/id1459186328",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-tictaitoe.jpg",
-        "version": "1.5",
+        "version": "1.6",
         "github": "https:\/\/github.com\/GroupeMINASTE\/MorpionTPE-iOS"
     },
     {

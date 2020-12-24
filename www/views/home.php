@@ -98,23 +98,30 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <h3 class="level-title">Swift<span class="level-label">Pro</span></h3>
+                                <h3 class="level-title">Swift & iOS<span class="level-label">Pro</span></h3>
                                 <div class="level-bar">
                                     <div class="level-bar-inner" data-level="95%">
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
-                                <h3 class="level-title">JS<span class="level-label">Medium</span></h3>
+                                <h3 class="level-title">JS & NodeJS<span class="level-label">Medium</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="70%">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h3 class="level-title">Python<span class="level-label">Medium</span></h3>
                                 <div class="level-bar">
                                     <div class="level-bar-inner" data-level="50%">
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
-                                <h3 class="level-title">Python<span class="level-label">Starter</span></h3>
+                                <h3 class="level-title">C++<span class="level-label">Starter</span></h3>
                                 <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="20%">
+                                    <div class="level-bar-inner" data-level="30%">
                                     </div>
                                 </div>
                             </div>
