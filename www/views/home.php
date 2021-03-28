@@ -125,6 +125,13 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="item">
+                                <h3 class="level-title">OCaml<span class="level-label">Starter</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="30%">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!--//content-->
