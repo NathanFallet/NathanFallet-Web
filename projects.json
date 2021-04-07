@@ -48,15 +48,15 @@
         "github": "https:\/\/github.com\/GroupeMINASTE\/CraftSearch"
     },
     {
-        "id": "deltamathhelper",
-        "name": "Delta: Math helper",
-        "description_little": "The new math app for students! Discover and create your algorithms to go faster, like a 2nd degree equations helper which calculates for you all the values you need to do everything with it.",
+        "id": "deltaalgorithms",
+        "name": "Delta: Algorithms",
+        "description_little": "The new math app for students! Discover and create your algorithms to play with maths, with a natural and easy-to-use language.",
         "description": "",
         "last_update": "2019-10-25 11:10:14",
         "type": "redirect",
-        "data": "https:\/\/www.delta-math-helper.com\/",
+        "data": "https:\/\/www.delta-algorithms.com\/",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-delta.jpg",
-        "version": "3.6.2",
+        "version": "3.6.3",
         "github": "https:\/\/github.com\/GroupeMINASTE\/Delta-iOS"
     },
     {
