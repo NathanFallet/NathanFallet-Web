@@ -192,6 +192,18 @@
         "github": "https:\/\/github.com\/GroupeMINASTE\/MorpionTPE-iOS"
     },
     {
+        "id": "vitemadose",
+        "name": "Vite Ma Dose de Vaccin",
+        "description_little": "Vite Ma Dose est un outil permettant de détecter les rendez-vous de vaccination pour la COVID-19.",
+        "description": "<p>Vite Ma Dose est un outil permettant de détecter les rendez-vous de vaccination. Cette application rapide, simple et fiable permet de trouver l'ensemble des rendez-vous de vaccination disponibles sur les plateformes de réservation comme Doctolib, Maiia, Keldoc ou Ordoclic, sous réserve d’éligibilité.<\/p><p>Vite Ma Dose ne collecte aucune donnée personnelle. Ce point d’entrée unique vous met simplement en relation avec l’une des plateformes de réservation, sur laquelle vous pouvez vous inscrire à un créneau dans un centre de vaccination. L’application est gratuite, indépendante, et open-source.<\/p>",
+        "last_update": "2021-04-21 22:17:29",
+        "type": "app",
+        "data": "https:\/\/play.google.com\/store\/apps\/details?id=com.cvtracker.vmd2;https:\/\/apps.apple.com\/app\/vite-ma-dose\/id1563630754",
+        "img": "https:\/\/www.nathanfallet.me\/img\/project-vitemadose.jpg",
+        "version": "1.0.0",
+        "github": "https:\/\/github.com\/CovidTrackerFr\/vitemadose-ios"
+    },
+    {
         "id": "zabripermission",
         "name": "ZabriPermission",
         "description_little": "ZabriPermission est un plugin qui va vous permettre de contr&ocirc;ler les permissions de vos joueurs gr&acirc;ce &agrave; un syst&egrave;me de groupes",
