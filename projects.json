@@ -8,7 +8,7 @@
         "type": "redirect",
         "data": "https:\/\/github.com\/GroupeMINASTE\/APIRequest.swift",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-apirequest.jpg",
-        "version": "1.3.1",
+        "version": "1.3.3",
         "github": "https:\/\/github.com\/GroupeMINASTE\/APIRequest.swift"
     },
     {
@@ -20,7 +20,7 @@
         "type": "app",
         "data": ";https:\/\/apps.apple.com\/app\/baseconverter-all-in-one\/id1446344899",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-baseconverter.jpg",
-        "version": "2.0.1",
+        "version": "2.0.2",
         "github": "https:\/\/github.com\/GroupeMINASTE\/BaseConverter-iOS"
     },
     {
@@ -56,7 +56,7 @@
         "type": "redirect",
         "data": "https:\/\/www.delta-algorithms.com\/",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-delta.jpg",
-        "version": "3.6.3",
+        "version": "3.6.4",
         "github": "https:\/\/github.com\/GroupeMINASTE\/Delta-iOS"
     },
     {
@@ -116,7 +116,7 @@
         "type": "app",
         "data": ";https:\/\/apps.apple.com\/app\/ocaml-learn-code\/id1547506826",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-ocaml.jpg",
-        "version": "1.1",
+        "version": "1.2.1",
         "github": "https:\/\/github.com\/GroupeMINASTE\/OCaml-iOS"
     },
     {
@@ -200,7 +200,7 @@
         "type": "app",
         "data": "https:\/\/play.google.com\/store\/apps\/details?id=com.cvtracker.vmd2;https:\/\/apps.apple.com\/app\/vite-ma-dose\/id1563630754",
         "img": "https:\/\/www.nathanfallet.me\/img\/project-vitemadose.jpg",
-        "version": "1.0.0",
+        "version": "1.2.1",
         "github": "https:\/\/github.com\/CovidTrackerFr\/vitemadose-ios"
     },
     {
