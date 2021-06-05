@@ -59,15 +59,16 @@
   <!-- ******HEADER****** -->
   <header class="header">
     <div class="container clearfix">
-      <img class="profile-image img-fluid float-left" src="/img/logo.jpg" alt="ZabriCraft" width="180px;" />
+      <img class="profile-image img-fluid float-left" src="/img/logo.jpg" alt="Nathan Fallet" width="180px;" />
       <div class="profile-content float-left">
         <h1 class="name">Nathan Fallet</h1>
-        <h2 class="desc">Web/Java/Swift developer</h2>
+        <h2 class="desc">iOS developer</h2>
         <ul class="social list-inline">
-          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCHVIGHM-gDwLnzuM1YQrHeA" target="_blank"><i class="fab fa-youtube"></i></a></li>
+          <li class="list-inline-item"><a href="https://github.com/NathanFallet" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li class="list-inline-item"><a href="https://stackoverflow.com/story/nathanfallet" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
           <li class="list-inline-item"><a href="https://twitter.com/NathanFallet" target="_blank"><i class="fab fa-twitter"></i></a></li>
           <li class="list-inline-item"><a href="https://www.instagram.com/nathanfallet/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-          <li class="list-inline-item"><a href="https://github.com/NathanFallet" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCHVIGHM-gDwLnzuM1YQrHeA" target="_blank"><i class="fab fa-youtube"></i></a></li>
         </ul>
       </div>
       <!--//profile-->
